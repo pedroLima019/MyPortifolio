@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { MdOutlineMenu, MdMenu } from "react-icons/md";
+
 const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="flex w-full justify-between items-center px-5">
+    <nav className="flex w-full justify-between items-center p-2 ">
       <div className="flex items-center w-full p-2">
         <img className="w-[70px]" src="/Logo.png" alt="Logo" />
       </div>
@@ -44,7 +45,7 @@ const Menu = () => {
         </li>
       </ul>
       <ul
-        className={`absolute top-20 left-0 w-full h-dvh bg-[#1c1c1e] flex flex-col gap-5 p-6 text-white font-medium text-sm sm:hidden
+        className={`absolute top-18 left-0 w-full h-dvh bg-[#1c1c1e] flex flex-col gap-5 p-10 text-white font-medium text-sm sm:hidden
           transform transition-all duration-300 ease-in-out
           ${
             isOpen
