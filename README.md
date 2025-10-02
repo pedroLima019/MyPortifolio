@@ -10,3 +10,5 @@ Este é o meu portfólio desenvolvido com **React.js**, **TypeScript** e **Tailw
 - [Vite](https://vitejs.dev/) — Bundler rápido para desenvolvimento.
 
 
+## 🗺️ Deploy 
+O projeto logo estará disponível... Aguarde ! 
